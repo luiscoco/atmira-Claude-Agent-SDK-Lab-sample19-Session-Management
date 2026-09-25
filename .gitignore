@@ -1,0 +1,19 @@
+node_modules/
+dist/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Concept 3: the agent's working folder (recreated by the server)
+sandbox/
+
+# Concept 17: the folders the agent edits and rewinds (recreated by the server)
+checkpoint-lab/
+
+# Concept 18: the folders the sandboxed Bash commands run in (recreated by the server)
+sandbox-lab/
+
+# Concept 19: the cwd of the session runs (its transcripts are in ~/.claude/projects/, not here)
+session-lab/
