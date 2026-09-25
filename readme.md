@@ -1,4 +1,4 @@
-# Session management, step by step
+# Session management
 
 This file explains how Concept 19 (**Session management**) was added to the Claude Agent SDK Lab.
 Concept 6 ([Tab6-Sessions.md](Tab6-Sessions.md)) used one option, `resume`, to continue a conversation. The SDK has
